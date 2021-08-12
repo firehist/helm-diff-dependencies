@@ -1,0 +1,9 @@
+apiVersion: v2
+name: helm-diff-dependencies
+version: 6.6.6
+Appversion: 6.6.6
+description: This Chart is an example chart using an other chart as dep
+dependencies:
+- name: argo-cd
+  version: 3.11.5
+  repository: https://argoproj.github.io/argo-helm

@@ -1,0 +1,7 @@
+# Used by helm to pull dependencies
+./charts
+
+# Common
+.idea
+*.iml
+*.lock
